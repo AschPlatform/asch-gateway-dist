@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AschPlatform/asch-gateway#readme",
   "dependencies": {
+    "bitgo-bitcoinjs-lib": "https://github.com/AschPlatform/bitcoinjs-lib/tarball/master",
     "base58check": "^2.0.0",
     "bignumber.js": "^4.1.0",
     "bitcoin-core": "^1.2.0",
