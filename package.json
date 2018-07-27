@@ -4,7 +4,10 @@
   "description": "asch cross chain gateway library",
   "main": "",
   "scripts": {
-    "test": "mocha"
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
@@ -17,16 +20,21 @@
   },
   "homepage": "https://github.com/AschPlatform/asch-gateway#readme",
   "dependencies": {
-    "bitgo-bitcoinjs-lib": "https://github.com/AschPlatform/bitcoinjs-lib/tarball/master",
     "base58check": "^2.0.0",
     "bignumber.js": "^4.1.0",
     "bitcoin-core": "^1.2.0",
+    "bitcoincashjs": "^0.1.10",
     "bitcoinjs-lib": "^3.1.1",
+    "bitgo-bitcoinjs-lib": "https://github.com/AschPlatform/bitcoinjs-lib/tarball/master",
+    "bs58check": "^2.1.2",
+    "cashaddrjs": "^0.2.8",
     "coinselect": "^3.1.11",
     "safe-buffer": "^5.1.1",
+    "typeforce": "^1.12.0",
     "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
-    "mocha": "^3.5.3"
+    "eslint-config-asch-base": "^1.0.2",
+    "jest": "^23.4.1"
   }
 }
